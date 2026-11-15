@@ -4,14 +4,14 @@
     "description": "Josaphat « Fafah » Tsimisaraka, graphiste et monteur vidéo basé à Antananarivo : identité visuelle, montage, motion design, 3D et vidéo IA."
   },
   "profil": {
+    "intro": "Josaphat « Fafah » Tsimisaraka. Je transforme les idées en images et en vidéos qui marquent : identités visuelles, montage, motion design, 3D et vidéo IA.",
     "nom": "Fafah Tsimisaraka",
+    "photo": "/img/portrait.webp",
     "titre": "Graphiste et monteur vidéo",
     "ville": "Antananarivo",
-    "photo": "/img/portrait.webp",
+    "disponible": false,
     "avatar": "/img/avatar.jpg",
-    "disponible": true,
     "texte_disponible": "Disponible en freelance",
-    "intro": "Josaphat « Fafah » Tsimisaraka. Je transforme les idées en images et en vidéos qui marquent : identités visuelles, montage, motion design, 3D et vidéo IA.",
     "mots_animes": [
       "Graphiste",
       "Monteur vidéo",
