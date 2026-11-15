@@ -1,0 +1,222 @@
+# Admin du site Fafah Tsimisaraka (Decap CMS)
+backend:
+  name: github
+  repo: tsimisarakajosaphat/fafahtsimisaraka-site
+  branch: main
+  commit_messages:
+    update: "Mise à jour : {{slug}}"
+    uploadMedia: "Ajout de l'image {{path}}"
+
+locale: fr
+site_url: https://fafahtsimisaraka.com
+display_url: https://fafahtsimisaraka.com
+logo_url: /img/avatar.jpg
+publish_mode: simple
+
+media_folder: img/uploads
+public_folder: /img/uploads
+
+collections:
+  - name: site
+    label: Contenu du site
+    editor: { preview: false }
+    files:
+
+      # ---------- PROFIL ----------
+      - name: profil
+        label: "Profil"
+        file: data/content/profil.json
+        fields:
+          - label: Profil (carte de gauche)
+            name: profil
+            widget: object
+            fields:
+              - { label: Nom affiché, name: nom, widget: string }
+              - { label: Titre, name: titre, widget: string, hint: "Ex. : Graphiste et monteur vidéo" }
+              - { label: Ville, name: ville, widget: string }
+              - { label: Grande photo (carte de gauche), name: photo, widget: image, hint: "Format portrait conseillé" }
+              - { label: Petite photo ronde, name: avatar, widget: image }
+              - { label: Texte de présentation, name: intro, widget: text }
+              - { label: Mots qui s'écrivent tout seuls, name: mots_animes, widget: list, field: { label: Mot, name: mot, widget: string } }
+              - { label: Afficher le badge « disponible », name: disponible, widget: boolean }
+              - { label: Texte du badge, name: texte_disponible, widget: string }
+          - { label: Lien Behance, name: lien_behance, widget: string }
+          - label: Référencement Google
+            name: seo
+            widget: object
+            collapsed: true
+            fields:
+              - { label: Titre de la page, name: titre, widget: string }
+              - { label: Description (sous le titre dans Google), name: description, widget: text }
+
+      # ---------- ACCUEIL ----------
+      - name: accueil
+        label: "Accueil"
+        file: data/content/accueil.json
+        fields:
+          - label: Accueil
+            name: hero
+            widget: object
+            fields:
+              - { label: Grand titre, name: titre, widget: string, hint: "*mot* = fin et orange · [mot] = surligné en orange" }
+              - { label: Texte du badge rond qui tourne, name: badge, widget: string, hint: "Environ 40 caractères" }
+              - label: Chiffres clés
+                name: chiffres
+                widget: list
+                fields:
+                  - { label: Nombre, name: valeur, widget: number, value_type: int }
+                  - { label: Suffixe (ex. +), name: suffixe, widget: string, required: false }
+                  - { label: Légende, name: label, widget: string }
+              - { label: Petit titre des clients, name: clients_titre, widget: string }
+              - { label: Clients qui défilent, name: clients, widget: list, field: { label: Nom, name: nom, widget: string } }
+
+      # ---------- À PROPOS ----------
+      - name: apropos
+        label: "À propos"
+        file: data/content/apropos.json
+        fields:
+          - label: À propos
+            name: apropos
+            widget: object
+            fields:
+              - { label: Paragraphes, name: paragraphes, widget: list, hint: "*mot* = fin et orange", field: { label: Paragraphe, name: texte, widget: text } }
+              - { label: Secteurs (petites étiquettes), name: secteurs, widget: list, field: { label: Secteur, name: nom, widget: string } }
+              - { label: Image, name: image, widget: image }
+
+      # ---------- COMPÉTENCES ----------
+      - name: competences
+        label: "Compétences"
+        file: data/content/competences.json
+        fields:
+          - label: Compétences
+            name: competences
+            widget: list
+            summary: "{{fields.titre}}"
+            fields:
+              - label: Icône
+                name: icone
+                widget: select
+                options:
+                  - { label: Plume (graphisme), value: pen }
+                  - { label: Palette, value: palette }
+                  - { label: Mise en page, value: layout }
+                  - { label: Photo, value: photo }
+                  - { label: Pellicule (montage), value: film }
+                  - { label: Caméra, value: camera }
+                  - { label: Courbe (motion), value: motion }
+                  - { label: Cube (3D), value: cube }
+                  - { label: Étincelles (IA), value: sparkle }
+                  - { label: Web, value: web }
+              - { label: Titre, name: titre, widget: string }
+              - { label: Description, name: texte, widget: text }
+
+      # ---------- OUTILS ----------
+      - name: outils
+        label: "Logiciels & IA"
+        file: data/content/outils.json
+        fields:
+          - label: Logiciels
+            name: logiciels
+            widget: list
+            summary: "{{fields.nom}} — {{fields.pourcentage}} %"
+            fields:
+              - { label: Logo, name: icone, widget: image, required: false, hint: "Sans logo, l'abréviation s'affiche" }
+              - { label: Nom, name: nom, widget: string }
+              - { label: Abréviation, name: abrev, widget: string, required: false }
+              - { label: Ce que vous en faites, name: usage, widget: string }
+              - { label: Maîtrise (%), name: pourcentage, widget: number, value_type: int, min: 0, max: 100 }
+              - { label: Couleur de fond (si pas de logo), name: fond, widget: color, required: false }
+              - { label: Couleur du texte (si pas de logo), name: couleur, widget: color, required: false }
+          - label: Intelligences artificielles
+            name: ia
+            widget: list
+            summary: "{{fields.nom}}"
+            fields:
+              - { label: "Logo (PNG transparent, affiché en gris)", name: logo, widget: image, required: false }
+              - { label: Nom, name: nom, widget: string }
+              - { label: Usage, name: usage, widget: string }
+
+      # ---------- VIDÉOS ----------
+      - name: videos
+        label: "Vidéos"
+        file: data/content/videos.json
+        fields:
+          - label: Vidéos
+            name: videos
+            widget: object
+            fields:
+              - { label: "Vidéo à la une — lien YouTube", name: showreel, widget: string, hint: "Ex. : https://youtu.be/xxxxxxxxxxx" }
+              - { label: Titre affiché, name: titre, widget: string, required: false }
+              - { label: Petite ligne sous le titre, name: sous_titre, widget: string, required: false }
+              - { label: Image d'aperçu (facultatif), name: affiche, widget: image, required: false, hint: "Sinon la miniature YouTube" }
+              - label: Autres vidéos
+                name: liste
+                widget: list
+                summary: "{{fields.titre}}"
+                fields:
+                  - { label: Lien YouTube, name: youtube, widget: string }
+                  - { label: Titre, name: titre, widget: string }
+                  - { label: Catégorie, name: categorie, widget: string, required: false }
+                  - { label: Miniature personnalisée (facultatif), name: miniature, widget: image, required: false }
+
+      # ---------- RÉALISATIONS ----------
+      - name: projets
+        label: "Réalisations"
+        file: data/content/projets.json
+        fields:
+          - label: Projets
+            name: projets
+            widget: list
+            summary: "{{fields.titre}}"
+            hint: "Image conseillée : format paysage 4:3"
+            fields:
+              - { label: Image, name: image, widget: image }
+              - { label: Titre, name: titre, widget: string }
+              - { label: Catégorie, name: categorie, widget: string }
+              - { label: "Lien (Behance, Drive…)", name: lien, widget: string, required: false }
+
+      # ---------- PARCOURS ----------
+      - name: parcours
+        label: "Parcours"
+        file: data/content/parcours.json
+        fields:
+          - label: Expériences
+            name: experiences
+            widget: list
+            summary: "{{fields.entreprise}} ({{fields.periode}})"
+            fields:
+              - { label: Entreprise, name: entreprise, widget: string }
+              - { label: Période (ex. 2019 → 2025), name: periode, widget: string }
+              - { label: Pays / ville, name: lieu, widget: string, required: false }
+              - { label: "Type (plein temps, freelance…)", name: type, widget: string, required: false }
+              - { label: Description, name: description, widget: text }
+          - label: Formation
+            name: formations
+            widget: list
+            summary: "{{fields.titre}}"
+            fields:
+              - { label: Diplôme, name: titre, widget: string }
+              - { label: Domaine · École, name: ecole, widget: string }
+
+      # ---------- CONTACT ----------
+      - name: contact
+        label: "Contact"
+        file: data/content/contact.json
+        fields:
+          - label: Contact
+            name: contact
+            widget: object
+            fields:
+              - { label: Grande phrase, name: phrase, widget: string }
+              - { label: Texte en dessous (petit, en gris), name: sous_phrase, widget: text }
+              - { label: E-mail affiché, name: email, widget: string }
+              - { label: WhatsApp, name: whatsapp, widget: string }
+              - label: Réseaux & liens
+                name: reseaux
+                widget: list
+                summary: "{{fields.nom}}"
+                fields:
+                  - { label: Nom (ex. Instagram), name: nom, widget: string }
+                  - { label: "Lien complet (https://…)", name: url, widget: string }
+                  - { label: Texte affiché, name: affichage, widget: string, required: false }
+              - { label: Choix « Type de projet », name: types_projet, widget: list, field: { label: Choix, name: choix, widget: string } }

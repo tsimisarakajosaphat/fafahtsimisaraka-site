@@ -1,0 +1,63 @@
+{
+  "experiences": [
+    {
+      "entreprise": "Bet261",
+      "lieu": "Madagascar",
+      "type": "plein temps",
+      "periode": "2019 → 2025",
+      "description": "Graphiste & motion designer : campagnes, visuels réseaux sociaux, animations."
+    },
+    {
+      "entreprise": "SIMAX",
+      "lieu": "France",
+      "type": "freelance",
+      "periode": "2023 → 2025",
+      "description": "Graphiste, motion designer & monteur vidéo."
+    },
+    {
+      "entreprise": "Le journal du Real",
+      "lieu": "France",
+      "type": "freelance",
+      "periode": "2022 → 2023",
+      "description": "Graphiste : charte graphique et visuels éditoriaux."
+    },
+    {
+      "entreprise": "Karenjy",
+      "lieu": "Madagascar",
+      "type": "freelance",
+      "periode": "2020 → 2022",
+      "description": "Graphiste, monteur vidéo & web designer."
+    },
+    {
+      "entreprise": "Dupuis, Nicolas",
+      "lieu": "Madagascar",
+      "type": "freelance",
+      "periode": "2021",
+      "description": "Graphiste & monteur vidéo."
+    },
+    {
+      "entreprise": "Comm-Unique",
+      "lieu": "Madagascar",
+      "type": "plein temps",
+      "periode": "2018 → 2019",
+      "description": "Graphiste en agence de communication."
+    },
+    {
+      "entreprise": "Loharano II",
+      "lieu": "Madagascar",
+      "type": "plein temps",
+      "periode": "2016 → 2017",
+      "description": "Graphiste."
+    }
+  ],
+  "formations": [
+    {
+      "titre": "Licence professionnelle",
+      "ecole": "Multimédia & Communication · GSI Madagascar"
+    },
+    {
+      "titre": "Diplôme de Technicien Supérieur",
+      "ecole": "Multimédia & Communication · GSI Madagascar"
+    }
+  ]
+}

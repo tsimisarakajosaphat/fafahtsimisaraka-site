@@ -1,0 +1,76 @@
+{
+  "projets": [
+    {
+      "titre": "GSTV — Gasy Sport Television",
+      "categorie": "Charte graphique",
+      "image": "/img/work/gstv.webp",
+      "lien": "https://www.behance.net/gallery/221798649/CHARTE-GRAPHIQUE-GSTV"
+    },
+    {
+      "titre": "Terre Rouge Cosmétique",
+      "categorie": "Charte graphique",
+      "image": "/img/work/terrerouge.webp",
+      "lien": "https://www.behance.net/gallery/174239243/Terre-Rouge-Cosmtique-Charte-Graphique"
+    },
+    {
+      "titre": "Le journal du Real",
+      "categorie": "Charte graphique",
+      "image": "/img/work/real.webp",
+      "lien": "https://www.behance.net/gallery/202301479/Charte-Graphique-Le-journal-du-Real"
+    },
+    {
+      "titre": "Labiera",
+      "categorie": "Modélisation 3D",
+      "image": "/img/work/labiera.webp",
+      "lien": "https://www.behance.net/gallery/176390425/LABIERA-Modlisation-3d"
+    },
+    {
+      "titre": "Karenjy",
+      "categorie": "Web design",
+      "image": "/img/work/karenjy.webp",
+      "lien": "https://www.behance.net/gallery/204357727/Web-DESIGN-KARENJY"
+    },
+    {
+      "titre": "ADANA Madagascar",
+      "categorie": "Identité visuelle",
+      "image": "/img/work/adana.webp",
+      "lien": "https://www.behance.net/gallery/170908793/Identit-Visuel-ADANA-Madagascar"
+    },
+    {
+      "titre": "Black and Yellow Project",
+      "categorie": "Direction artistique",
+      "image": "/img/work/blackyellow.webp",
+      "lien": "https://www.behance.net/gallery/167862155/Black-and-Yellow-Project-67-city"
+    },
+    {
+      "titre": "Lions Club Miranandro",
+      "categorie": "Refonte de logo",
+      "image": "/img/work/miranandro.webp",
+      "lien": "https://www.behance.net/gallery/221801703/REFONTE-LOGO-MIRANANDRO"
+    },
+    {
+      "titre": "Barakay",
+      "categorie": "Restaurant · logo",
+      "image": "/img/work/barakay.webp",
+      "lien": "https://www.behance.net/gallery/167862983/Barakay-Restaurant"
+    },
+    {
+      "titre": "Projet Agriculture",
+      "categorie": "Présentation",
+      "image": "/img/work/agri.webp",
+      "lien": "https://www.behance.net/gallery/221804773/PRESENTATION-PROJET-AGRICULTURE"
+    },
+    {
+      "titre": "67 City FC",
+      "categorie": "Charte graphique",
+      "image": "/img/work/67city.webp",
+      "lien": "https://www.behance.net/gallery/167862479/67-City-Charte-Graphique"
+    },
+    {
+      "titre": "Rio Tinto QMM",
+      "categorie": "Présentation",
+      "image": "/img/work/presentation.webp",
+      "lien": "https://www.behance.net/gallery/221803459/PRESENTATION-PROJET"
+    }
+  ]
+}

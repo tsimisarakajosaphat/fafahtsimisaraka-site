@@ -1,0 +1,29 @@
+{
+  "competences": [
+    {
+      "titre": "Identité visuelle",
+      "texte": "Logos, chartes graphiques, supports print et réseaux sociaux.",
+      "icone": "pen"
+    },
+    {
+      "titre": "Montage vidéo",
+      "texte": "Pubs, vidéos institutionnelles, contenus courts pour les réseaux.",
+      "icone": "film"
+    },
+    {
+      "titre": "Motion design",
+      "texte": "Animations de logos, typographie animée, habillage vidéo.",
+      "icone": "motion"
+    },
+    {
+      "titre": "3D",
+      "texte": "Mise en scène de produits et visuels 3D dans Blender.",
+      "icone": "cube"
+    },
+    {
+      "titre": "Vidéo IA",
+      "texte": "Vidéos générées à partir d'un produit, d'une personne ou d'un lieu.",
+      "icone": "sparkle"
+    }
+  ]
+}

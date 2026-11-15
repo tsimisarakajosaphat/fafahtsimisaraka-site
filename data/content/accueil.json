@@ -1,0 +1,34 @@
+{
+  "hero": {
+    "titre": "Je donne *vie* aux idées, en [image] et en mouvement.",
+    "badge": "Graphiste ✦ Monteur vidéo ✦ Motion ✦ 3D ✦",
+    "chiffres": [
+      {
+        "valeur": 8,
+        "suffixe": "+",
+        "label": "années d'expérience"
+      },
+      {
+        "valeur": 7,
+        "suffixe": "",
+        "label": "entreprises & studios"
+      },
+      {
+        "valeur": 2,
+        "suffixe": "",
+        "label": "pays : Madagascar & France"
+      }
+    ],
+    "clients_titre": "Ils m'ont fait confiance · 2016 → aujourd'hui",
+    "clients": [
+      "Bet261",
+      "SIMAX",
+      "Le journal du Real",
+      "Karenjy",
+      "Comm-Unique",
+      "Loharano II",
+      "Terre Rouge",
+      "GSTV"
+    ]
+  }
+}

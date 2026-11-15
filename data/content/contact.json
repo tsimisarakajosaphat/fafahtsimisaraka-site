@@ -1,0 +1,28 @@
+{
+  "contact": {
+    "email": "tsimisarakajosaphat@gmail.com",
+    "whatsapp": "+261 32 54 520 76",
+    "reseaux": [
+      {
+        "nom": "Behance",
+        "url": "https://www.behance.net/tsimisarakajosaphat",
+        "affichage": "behance.net/tsimisarakajosaphat"
+      },
+      {
+        "nom": "Facebook",
+        "url": "https://www.facebook.com/fafahtsimisaraka",
+        "affichage": "@fafahtsimisaraka"
+      }
+    ],
+    "types_projet": [
+      "Identité visuelle",
+      "Montage vidéo",
+      "Motion design",
+      "3D",
+      "Vidéo IA",
+      "Autre"
+    ],
+    "phrase": "Pour un projet ou une simple question,",
+    "sous_phrase": "écrivez-moi par e-mail ou remplissez le formulaire — disponible dès maintenant."
+  }
+}

@@ -1,0 +1,18 @@
+{
+  "apropos": {
+    "paragraphes": [
+      "Graphiste de formation, je me suis tourné vers le *montage vidéo* il y a plus de 8 ans. Aujourd'hui je relie les deux : une marque qui a une identité forte et des vidéos qui la font vivre.",
+      "De la charte graphique au motion design, de la 3D à la vidéo générée par IA à partir d'un produit, d'une personne ou d'un lieu. Un seul interlocuteur pour toute votre image."
+    ],
+    "secteurs": [
+      "Médias & sport",
+      "Hôtellerie",
+      "Santé",
+      "Agriculture",
+      "Solutions ERP / CRM",
+      "Cosmétique",
+      "Restauration"
+    ],
+    "image": "/img/work/terrerouge.webp"
+  }
+}

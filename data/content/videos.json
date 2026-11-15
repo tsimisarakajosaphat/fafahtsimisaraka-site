@@ -1,0 +1,22 @@
+{
+  "videos": {
+    "showreel": "https://youtu.be/3mU5LKJldxs",
+    "liste": [
+      {
+        "titre": "Sécurité des données — VAV",
+        "categorie": "Motion design",
+        "youtube": "https://youtu.be/6SNFiBRgM5c",
+        "miniature": "/img/video/6SNFiBRgM5c.webp"
+      },
+      {
+        "titre": "Témoignage partenaire — Ressorts Lacroix",
+        "categorie": "Montage · SIMAX",
+        "youtube": "https://youtu.be/8AO3XQwpwIw",
+        "miniature": "/img/video/8AO3XQwpwIw.webp"
+      }
+    ],
+    "titre": "Karenjy — Mazana II",
+    "sous_titre": "100 % généré par l’IA",
+    "affiche": "/img/video/vedette.webp"
+  }
+}

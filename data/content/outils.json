@@ -1,0 +1,109 @@
+{
+  "logiciels": [
+    {
+      "nom": "Photoshop",
+      "abrev": "Ps",
+      "fond": "#001e36",
+      "couleur": "#31a8ff",
+      "pourcentage": 95,
+      "usage": "Retouche, composition & visuels",
+      "icone": "/img/icons/photoshop.svg"
+    },
+    {
+      "nom": "Illustrator",
+      "abrev": "Ai",
+      "fond": "#330000",
+      "couleur": "#ff9a00",
+      "pourcentage": 85,
+      "usage": "Logos & illustration vectorielle",
+      "icone": "/img/icons/illustrator.svg"
+    },
+    {
+      "nom": "InDesign",
+      "abrev": "Id",
+      "fond": "#49021f",
+      "couleur": "#ff3366",
+      "pourcentage": 85,
+      "usage": "Mise en page & print",
+      "icone": "/img/icons/indesign.svg"
+    },
+    {
+      "nom": "Premiere Pro",
+      "abrev": "Pr",
+      "fond": "#00005b",
+      "couleur": "#9999ff",
+      "pourcentage": 85,
+      "usage": "Montage vidéo",
+      "icone": "/img/icons/premiere-pro.svg"
+    },
+    {
+      "nom": "After Effects",
+      "abrev": "Ae",
+      "fond": "#00005b",
+      "couleur": "#d291ff",
+      "pourcentage": 85,
+      "usage": "Motion design & animation",
+      "icone": "/img/icons/after-effects.svg"
+    },
+    {
+      "nom": "Blender",
+      "abrev": "Bl",
+      "fond": "#2b1a0a",
+      "couleur": "#f5792a",
+      "pourcentage": 70,
+      "usage": "3D & mise en scène produit",
+      "icone": "/img/icons/blender.svg"
+    }
+  ],
+  "ia": [
+    {
+      "nom": "Higgsfield",
+      "abrev": "Hf",
+      "couleur": "#d4ff3f",
+      "usage": "vidéo & image",
+      "logo": "/img/ia/higgsfield.png"
+    },
+    {
+      "nom": "Seedance",
+      "abrev": "Sd",
+      "couleur": "#7fd3ff",
+      "usage": "vidéo",
+      "logo": "/img/ia/seedance.png"
+    },
+    {
+      "nom": "HeyGen",
+      "abrev": "Hg",
+      "couleur": "#b9a4ff",
+      "usage": "avatars vidéo",
+      "logo": "/img/ia/heygen.png"
+    },
+    {
+      "nom": "ElevenLabs",
+      "abrev": "11",
+      "couleur": "#f1efe8",
+      "usage": "voix off",
+      "logo": "/img/ia/elevenlabs.svg"
+    },
+    {
+      "nom": "Claude",
+      "abrev": "Cl",
+      "couleur": "#e8a37c",
+      "usage": "scripts & idées",
+      "logo": "/img/ia/claude.svg"
+    },
+    {
+      "nom": "Gemini",
+      "abrev": "Ge",
+      "couleur": "#8ab4ff",
+      "usage": "recherche & image",
+      "logo": "/img/ia/gemini.svg"
+    },
+    {
+      "nom": "ChatGPT",
+      "abrev": "Gp",
+      "couleur": "#74d4b0",
+      "usage": "textes & prompts",
+      "logo": "/img/ia/chatgpt.svg"
+    }
+  ]
+}
